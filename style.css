@@ -1,7 +1,8 @@
 body {
     background-color: rgb(68,68,68);
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
 }
 
 div {
@@ -15,6 +16,61 @@ header, footer {
 }
 
 header {
-    padding: 20px;
+    padding: 5px;
     border-bottom: rgb(120,120,120) solid 1px;
+}
+
+h1 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+a {
+    color: rgb(100,195,148);
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+span {
+    font-size: 12px;
+    color: rgb(120,120,120);
+    padding-left: 5px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+a {
+    padding: 5px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    float: right;
+    margin: 0 0 20px 20px;
+    padding: 5px;
+    border: rgb(120,120,120) solid 1px;
+    width: 200px;
+}
+
+footer {
+    color: rgb(120,120,120);
+    font-size: 12px;
+    padding-top: 20px;
+    border-top: rgb(120,120,120) solid 1px;
+}
+
+main > p {
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 1.5em;
+    padding-bottom: 5px;
 }
